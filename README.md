@@ -1,6 +1,6 @@
 # website
 
-> test
+> (https://lannoy0523.github.io/website/)
 
 ## Build Setup
 
