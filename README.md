@@ -1,6 +1,10 @@
 # website
 
-> test
+> (https://lannoy0523.github.io/website/)
+
+# 注意
+
+> (pdfjs得注意里面的地址，我路径里面多个website，github部署的域名我多一层，所以加的，本地跑起来需移除。)
 
 ## Build Setup
 

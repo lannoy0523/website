@@ -65,18 +65,18 @@
       </li>
       <li>
         <a
-          href="http://vue-loader.vuejs.org/"
+          :href=pdfUrl
           target="_blank"
         >
-          vue-loader
+          pdfjs
         </a>
       </li>
       <li>
         <a
-          href="https://github.com/vuejs/awesome-vue"
+          :href=url
           target="_blank"
         >
-          awesome-vue
+          pdf
         </a>
       </li>
     </ul>
@@ -88,7 +88,9 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      url: '/website/static/web/compressed.tracemonkey-pldi-09.pdf',
+      pdfUrl: '/website/static/web/viewer.html?file=' + window.location.origin + '/website/static/web/compressed.tracemonkey-pldi-09.pdf'
     }
   }
 }
